@@ -30,6 +30,7 @@ _success_status() {
 #export PS1='\u:\W$ '
 #  PS1='\[\e[0;31m\]\w\[\e[m\]$(_git_prompt) \[\e[1;31m\]$(_failed_status)\[\e[m\]$(_success_status) '
 PS1='\[\e[0;36m\]\u:\W\[\e[m\]$(_git_prompt) \[\e[1;31m\]$(_failed_status)\[\e[m\]$(_success_status) '
+PS1='\[\e[0;36m\]\u\[\e[m\]:\[\e[0;31m\]\W\[\e[m\]$(_git_prompt) \[\e[1;31m\]$(_failed_status)\[\e[m\]$(_success_status) '
 
 
 # Allow <C-s> to pass through to shell and programs
